@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MYB turismo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+<style>
+  
+  .navbar {
+    background-color: #f8f9fa; 
+  }
+
+  
+  .logo {
+    height: 40px; 
+    margin-right: 10px; 
+  }
+  .nav-link {
+  font-family: Arial, sans-serif; 
+  font-size: 18px; 
+  font-weight: bold; 
+  color: MidnightBlue
+  ;
+}
+.nav-item {
+  margin-right: 60px; 
+}
+
+.conteudo {
+  background-image: url(imagens/brazil-2037587_1920.jpg);
+  background-size: cover;
+  background-position: center; 
+  min-height: 100vh; 
+    
+}
+ 
+
+.card {
+  max-width: 400px; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: f8f9fa;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold; 
+  color: MidnightBlue
+}
+
+
+.form-group {
+  text-align: center; 
+  
+}
+
+
+.form-group input {
+  max-width: 300px; 
+  margin: 0 auto;}
+
+  .card-body {
+  text-align: center;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+      text-align: center;
+      padding: 8px 0;
+      background-color: #f8f9fa;
+    }
+
+    .payment-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .payment-icon {
+      margin: 0 8px;
+      width: 30px0,;
+      height: auto;
+    }
+
+   .h1 {
+  
+      color: rgb(7, 7, 54);
+      font-size: 36px; 
+      text-shadow: 2px 2px 4px white;
+      font-family:Arial, sans-serif; 
+      text-align: left; 
+       margin-top: 20px; 
+       margin-left: 20px;
+    
+   }
+
+</style>
+</head>
+
+   
+<body>
+    
+  
+  
+  <nav class="navbar navbar-expand-md">
+    
+    <a class="navbar-brand" href="#">
+      
+      <img src=imagens/Free_Sample_By_Wix.jpg alt="Logo" style="height: 60%;" class="logo"> 
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destinos.html">Destinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="promoções.html">Promoções</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="conteudo">
+     <br><br>
+     
+     <div class="h1">
+     <h1>  Viaje com classe,</h1> 
+     <h1> pague com conforto.</h1> 
+     </div>
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-header">
+        
+          Selecione as datas de viagem e destinos
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="destinoPartida">Destino de Partida</label>
+                <input type="text" class="form-control" id="destinoPartida" placeholder="Insira o destino de partida">
+                <label for="destinoViagem">Destino de Viagem</label>
+                <input type="text" class="form-control" id="destinoViagem" placeholder="Insira o destino de viagem">
+              </div>
+      
+            <div class="form-row">
+              <div class="form-group col-md-10">
+                <label for="dataIda">Data de Ida</label>
+                <input type="date" class="form-control" id="dataIda">
+              </div>
+              <div class="form-group col-md-10">
+                <label for="dataVolta">Data de Volta</label>
+                <input type="date" class="form-control" id="dataVolta">
+              </div>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Buscar Viagens</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+   
+
+<br><br><br><br><br>
+<div class="footer">
+
+<footer class="footer">
+  <font face="arial, sans-serif" color="midnightblue">Formas de pagamento</font>
+</p>
+  <div class="payment-icons">
+  
+    <img class="payment-icon" src="imagens/visa.svg" alt="Visa">
+    <img class="payment-icon" src="imagens/mastercard.svg" alt="MasterCard">
+    <img class="payment-icon" src="imagens/hipercard.svg" alt="Hipercard">
+    <img class="payment-icon" src="imagens/elo.webp" alt="Elo">
+    <img class="payment-icon" src="imagens/diners.svg" alt="diners">
+  </div>
+  <br>
+<p id="recodepro">&reg; MYB management</p>
+</footer>
+
+
+</div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    </body>
+</html>
